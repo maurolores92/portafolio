@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
 }
 .mainIndex {
-    background-image: url("../Assets/img/index.jpg");
+    background-image: url(../assets/img/index.jpg);
     background-size: cover;
     height: 960px;
     width: 100%;
@@ -115,7 +115,7 @@ iframe {
     text-decoration: none;
 }
 .faq {
-    background-image:url("../Assets/img/Proyectos.jpg");
+    background-image:url(../assets/img/Proyectos.jpg);
     background-size: cover;
     height: 960px;
     width: 100%;
@@ -223,7 +223,7 @@ iframe {
 /* proyectos */
 
 .mainProyectos {
-    background-image: url("../Assets/img/imgProyectos.jpg");
+    background-image: url(../assets/img/imgProyectos.jpg);
     background-size: cover;
     height: 940px;
     }
@@ -232,7 +232,7 @@ iframe {
     background-color: #2F8233;
 }
 .servicios {
-    background-image: url("../Assets/img/imgproyectos2.jpg");
+    background-image: url(../assets/img/imgproyectos2.jpg);
     background-size: cover;
     height: 960px;
     width: 100%;
@@ -258,7 +258,7 @@ iframe {
 /* FAQ */
 
 .mainFaq {
-    background-image: url("../Assets/img/imgFaq.jpg");
+    background-image: url(../assets/img/imgFaq.jpg);
     background-size: cover;
     height: 940px;
     }
@@ -290,7 +290,7 @@ iframe {
 /* contactos */
 
 .mainContactos {
-    background-image: url("../Assets/img/imgContactos.jpg");
+    background-image: url(../assets/img/imgContactos.jpg);
     background-size: cover;
     height: 940px;
     }
@@ -331,7 +331,7 @@ iframe {
 }
 .contenedor {
     padding: 100px;
-    background-image: url("../Assets/img/contacto2.jpg");
+    background-image: url(../assets/img/contacto2.jpg);
     background-size: cover;
     height: 960px;
     width: 100%;
