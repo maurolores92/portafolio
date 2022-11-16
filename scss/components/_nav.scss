@@ -1,0 +1,42 @@
+.header {
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        .logo {
+            width: 120px;
+            padding: 10px;
+        }
+        .navMenu {
+            display: flex;
+            margin-right: 40px;
+            padding: 10px;
+            list-style: none;
+            .navMenuItem {
+                font-size: 14px;
+                margin: 10px 10px;
+                line-height: 30px;
+                width: max-content;
+                height: max-content;
+                padding: 1px 12px;
+                color: white;
+                border-radius: 0.7em;
+                transition-duration: 1s;
+                &:hover {
+                    background-color: #2F8233;
+                    box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233
+                }
+                .navMenuLink {
+                    color: white;
+                    text-decoration: none;
+                }
+    
+            }
+        }
+    }
+}

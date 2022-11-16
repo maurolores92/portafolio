@@ -1,397 +1,421 @@
-/* MODIFICACIONES GENERALES */
-
 * {
-    margin: 0;
-    padding: 0;
-    overflow-wrap: hidden;
-    }
+  margin: 0;
+  padding: 0;
+  overflow-wrap: hidden;
+}
+
 body {
-    font-family: sans-serif;
-    overflow-x: hidden;
+  font-family: sans-serif;
+  overflow-x: hidden;
 }
+
 .mainIndex {
-    background-image: url(../assets/img/index.jpg);
-    background-size: cover;
-    height: 960px;
-    width: 100%;
+  background-image: url(../Assets/img/index.jpg);
+  background-size: cover;
+  height: 960px;
+  width: 100%;
 }
-.header {
-    height: 80px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
+.mainIndex .titulo {
+  color: white;
+  padding: 200px 1200px;
+  text-shadow: 3px 3px 14px #ffffff;
 }
-.nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+.mainIndex .titulo p {
+  width: 400px;
+  font-size: 32px;
 }
-.navMenuLink {
-    color: white;
-    text-decoration: none;
+.mainIndex .titulo h1 {
+  font-size: 100px;
+  font-weight: bold;
 }
-.logo {
-    width: 120px;
-    padding: 10px;
-}
-.navMenu {
-    display: flex;
-    margin-right: 40px;
-    padding: 10px;
-    list-style: none;
-}
-.navMenuItem {
-    font-size: 14px;
-    margin: 10px 10px;
-    line-height: 30px;
-    width: max-content;
-    height: max-content;
-    padding: 1px 12px;
-}
-.navMenuItem {
-    color: white;
-    border-radius: 0.7em;
-    transition-duration: 1s;
-}
-.navMenuItem:hover {
-    background-color: #2F8233;
-    box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233
-}
-.titulo {
-    width: 300px;
-    color: white;
-    padding: 250px 1200px;
-    font-size: 32px;
-    text-shadow: 3px 3px 14px #ffffff;
-    
-}
-h1 {
-    font-size: 100px;
-    font-weight: bold;
-}
-h2 {
-    font-size: 40px;
-    margin: 50px ;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 0.7em;
-    transition-duration: 1s;
-    width: 220px;
-    margin-left: auto;
-    margin-right: auto;
-    text-shadow: 2px 2px 10px #2F8233;
-}
-h2:hover {
-    color: white;
-    background-color: #2F8233;
-    box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233
-}
-h3 {
-    padding: 20px;
-    font-size: 32px;
-}
-iframe {
-    margin-bottom: 50px;
-
-}
-.proyectosIndex {
-    font-size: 20px;
-    display: flex;
-    display: flex;
-    flex-flow: wrap;
-    justify-content:space-around;
-    align-content: space-around;
-}
-.Proyectos {
-    margin-right: 10px;
-    text-align: center;
-    width: 580px;
-    margin: 16px 8px;
-    padding: 0.5em 1em;
-}
-.link {
-    color: black;
-    text-decoration: none;
-}
-.faq {
-    background-image:url(../assets/img/Proyectos.jpg);
-    background-size: cover;
-    height: 960px;
-    width: 100%;
-}
-.preguntasFrecuentes {
-    padding-top: 300px;
-    text-align: center;
-    margin-right: 50px;
-    color: white;
-    font-size: 20px;
-}
-.tituloFaq {
-    text-shadow: 2px 2px 10px #2F8233;
-    font-weight: bold;
-    padding: 10px;
-}
-.logoNotebook {
-    display: flex;
-    width: 180px;
-    margin-top: 80px;
-    margin-left: -330px;
-}
-.faqLink {
-    margin-top: 10px;
-    color: white;
-    border-radius: 0.7em;
-    transition-duration: 1s;
-    text-decoration: none;
-    font-weight: bold;
-    
-}
-.faqLink:hover {
-    background-color: #2F8233;
-    box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233;
-    width: max-content;
-    padding: 3px 14px;
-}
-.faqBoton {
-    padding-top: 10px;
-}
-.piePagina{
-    width: 100%;
-    margin-top: 10px;
-    display: flex;
-    overflow-x: hidden;
-    border: solid 1px;
-    box-shadow: 0 0 20px #2F8233;
-}
-.piePagina .grupo1 {
-    width: 100%;
-    max-width: 1700px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    padding: 10px 0px;
-}
-.piePagina .grupo1 .box figure {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.piePagina .grupo1 .box figure img{
-    width: 200px;
-    height: 140px;
-}
-.piePagina .grupo1 .box h3{
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-.piePagina .grupo1 .box p{
-    margin-bottom: 10px;
-    text-align: center;
-}
-.piePagina .grupo1 .redSocial a {
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    margin-right: 10px;
-    text-align: center;
-}
-.piePagina .grupo1 .redSocial a:hover {
-    transform: scale(1.1);
-}
-.piePagina .box .redSocial {
-    text-align: center;
-    margin-top: 60px;
-}
-.piePagina .grupo2 {
-    padding: 15px 10px;
-    text-align: center;
-}
-.piePagina .box h3 {
-    text-align: center;
-}
-.piePagina .box1 {
-    margin: 100px;
-    text-align: center;
-}
-
-/* proyectos */
 
 .mainProyectos {
-    background-image: url(../assets/img/imgProyectos.jpg);
-    background-size: cover;
-    height: 940px;
-    }
-.serviciosH2{
-    text-align: center;
-    background-color: #2F8233;
+  background-image: url(../Assets/img/imgProyectos.jpg);
+  background-size: cover;
+  height: 940px;
 }
-.servicios {
-    background-image: url(../assets/img/imgproyectos2.jpg);
-    background-size: cover;
-    height: 960px;
-    width: 100%;
-    color: #fff;
-    display: flex;
+.mainProyectos .titulo {
+  color: white;
+  padding: 200px 1200px;
+  text-shadow: 3px 3px 14px #ffffff;
 }
-
-.serviciosFlex {
-    display: flex;
-    justify-content:center;
-    width: 100%;
-    height: 150px;
-    font-size: 20px;
-    margin-top: 80px;
-    padding: 20px;
-    line-height: 40px;
-    text-align: center;
-    text-shadow: 3px 3px 14px #ffffff;
+.mainProyectos .titulo p {
+  width: 400px;
+  font-size: 32px;
 }
-.serviciosFlex ul li {
-    list-style: none;
+.mainProyectos .titulo h1 {
+  font-size: 100px;
+  font-weight: bold;
 }
-/* FAQ */
 
 .mainFaq {
-    background-image: url(../assets/img/imgFaq.jpg);
-    background-size: cover;
-    height: 940px;
-    }
-    .recuadroInformativo {
-        background-color: #ebebeb;
-        text-align: center;
-        font-weight: bold;
-        width: 700px;
-        height: 120px;
-        margin: 1em 0.5em;
-        padding: 1.5em 1em;
-        border: solid 1px #495057;
-        box-shadow: 0 0 10px #000000, 1px 1px #000000;
-    }
-    .recuadroInformativo li {
-        list-style-type:none;
-    }
-    .flexContainer {
-        display: flex; /*
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 80em; */
-        flex-flow: row wrap;
-        justify-content:space-around;
-        align-content: space-around;
-        margin: 3em;
-        }
-
-/* contactos */
+  background-image: url(../Assets/img/imgFaq.jpg);
+  background-size: cover;
+  height: 940px;
+}
+.mainFaq .titulo {
+  color: white;
+  padding: 200px 1200px;
+  text-shadow: 3px 3px 14px #ffffff;
+}
+.mainFaq .titulo h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
 
 .mainContactos {
-    background-image: url(../assets/img/imgContactos.jpg);
-    background-size: cover;
-    height: 940px;
-    }
-.contacto {display: flex; /*
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 80em; */
-    flex-flow: row wrap;
-    justify-content:space-around;
-    align-content: space-around;
+  background-image: url(../Assets/img/imgContactos.jpg);
+  background-size: cover;
+  height: 940px;
 }
-.recuadroContacto {
-    text-align: center;
-    width: 350px;
-    height: 350px;
-    margin: 70px;
-    padding-top: 30px;
-    background-color: #ebebeb;
-    box-shadow: 0 0 10px #000000, 1px 1px #000000;
+.mainContactos .titulo {
+  color: white;
+  padding: 200px 1200px;
+  text-shadow: 3px 3px 14px #ffffff;
 }
-.recuadroContacto:hover {
-    scale: 1.04;
-    background: rgba(0,0,0,.2);
-}
-.recuadroContacto a {
-    text-decoration: none;
-    color: #000000;
-}
-.iconos {
-    width: 120px;
-    height: 120px;
-}
-.recuadroContacto p {
-    font-size: 18px;
-    text-shadow: 1px 1px 10px #929292;
-    padding: 30px 60px;
-    font-weight: bold;
-}
-.contenedor {
-    padding: 100px;
-    background-image: url(../assets/img/contacto2.jpg);
-    background-size: cover;
-    height: 960px;
-    width: 100%;
+.mainContactos .titulo h1 {
+  font-size: 100px;
+  font-weight: bold;
 }
 
-.contenedor .form .formHeader .formTitle {
-    font-weight: normal;
-    font-family: sans-serif;
-    color: #fff;
-    text-align: center;
-    padding: 14px 0;
+.header {
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.header .nav .logo {
+  width: 120px;
+  padding: 10px;
+}
+.header .nav .navMenu {
+  display: flex;
+  margin-right: 40px;
+  padding: 10px;
+  list-style: none;
+}
+.header .nav .navMenu .navMenuItem {
+  font-size: 14px;
+  margin: 10px 10px;
+  line-height: 30px;
+  width: max-content;
+  height: max-content;
+  padding: 1px 12px;
+  color: white;
+  border-radius: 0.7em;
+  transition-duration: 1s;
+}
+.header .nav .navMenu .navMenuItem:hover {
+  background-color: #2F8233;
+  box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233;
+}
+.header .nav .navMenu .navMenuItem .navMenuLink {
+  color: white;
+  text-decoration: none;
+}
+
+section h2 {
+  font-size: 40px;
+  margin: 50px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 0.7em;
+  transition-duration: 1s;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 2px 2px 10px #2F8233;
+}
+section h2:hover {
+  color: white;
+  background-color: #2F8233;
+  box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233;
+}
+section h2 .link {
+  color: black;
+  text-decoration: none;
+}
+section .proyectosIndex {
+  font-size: 20px;
+  display: flex;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+section .proyectosIndex .Proyectos {
+  margin-right: 10px;
+  text-align: center;
+  width: 580px;
+  margin: 16px 8px;
+  padding: 0.5em 1em;
+}
+section .proyectosIndex .Proyectos iframe {
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+  background-color: #2F8233;
+}
+
+.proyectosIndex {
+  font-size: 20px;
+  display: flex;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.proyectosIndex .Proyectos {
+  margin-right: 10px;
+  text-align: center;
+  width: 630px;
+  margin: 60px 8px;
+  padding: 0.5em 1em;
+}
+
+.servicios {
+  background-image: url(../assets/img/imgproyectos2.jpg);
+  background-size: cover;
+  height: 960px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+}
+.servicios .serviciosFlex {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  font-size: 20px;
+  margin-top: 80px;
+  padding: 20px;
+  line-height: 40px;
+  text-align: center;
+  text-shadow: 3px 3px 14px #ffffff;
+}
+
+.faq {
+  background-image: url(../assets/img/Proyectos.jpg);
+  background-size: cover;
+  height: 960px;
+  width: 100%;
+}
+.faq .preguntasFrecuentes {
+  padding-top: 265px;
+  text-align: center;
+  margin-right: 100px;
+  color: white;
+  font-size: 20px;
+  list-style-type: none;
+}
+.faq .preguntasFrecuentes .tituloFaq {
+  text-shadow: 2px 2px 10px #2F8233;
+  font-weight: bold;
+  padding: 10px;
+}
+.faq .preguntasFrecuentes .faqBoton {
+  padding-top: 10px;
+}
+.faq .preguntasFrecuentes .faqBoton .faqLink {
+  margin-top: 10px;
+  color: white;
+  border-radius: 0.7em;
+  transition-duration: 1s;
+  text-decoration: none;
+  font-weight: bold;
+}
+.faq .preguntasFrecuentes .faqBoton .faqLink:hover {
+  background-color: #2F8233;
+  box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233;
+  width: max-content;
+  padding: 3px 14px;
+}
+
+.accordion {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contacto {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.contacto .recuadroContacto {
+  text-align: center;
+  width: 350px;
+  height: 380px;
+  margin: 70px;
+  padding-top: 30px;
+  background-color: #ebebeb;
+  box-shadow: 0 0 10px #000000, 1px 1px #000000;
+}
+.contacto .recuadroContacto .recuadroContacto:hover {
+  scale: 1.04;
+  background: rgba(0, 0, 0, 0.2);
+}
+.contacto .recuadroContacto a {
+  text-decoration: none;
+  color: #000000;
+}
+.contacto .recuadroContacto a .iconos {
+  width: 120px;
+  height: 120px;
+}
+.contacto .recuadroContacto a p {
+  font-size: 18px;
+  text-shadow: 1px 1px 10px #929292;
+  padding: 15px 60px;
+  font-weight: bold;
+  width: auto;
+}
+
+.contenedor {
+  padding: 100px;
+  background-image: url(../Assets/img/contacto2.jpg);
+  background-size: cover;
+  height: 960px;
+  width: 100%;
 }
 .contenedor .form {
-    background: rgba(0,0,0,.4);
-    width: 600px;
-    max-width: auto;
-    margin: auto;
-    padding: 5px 35px;
-    margin-top: 30px;
-    padding-top: 30px;
-    border-radius: 3px;
+  background: rgba(0, 0, 0, 0.4);
+  width: 600px;
+  max-width: auto;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-radius: 3px;
+}
+.contenedor .form .formHeader h1 {
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 14px 0;
 }
 .contenedor .form .formLabel {
-    display: block;
-    color: #49C97C;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position: relative;
-    padding: 10px;
+  display: block;
+  color: #49C97C;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  padding: 10px;
 }
-.contenedor .form .formInput, .formTexarea {
-    background: rgba(0,0,0,.7);
-    color: white;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #2F8233;
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border-radius: 2px;
-    font-size: 14px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.contenedor .form .formInput {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #2F8233;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .contenedor .form .formTexarea {
-    resize: vertical;
-    max-height: 150px;
-    min-height: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #2F8233;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
 }
 .contenedor .form .botonesForm {
-    width: 100%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    outline: none;
-    background-color: #49C97C;
-    font-size: 16px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    transition: all .5sg ease;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  outline: none;
+  background-color: #49C97C;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5sg ease;
 }
 .contenedor .form .botonesForm:hover {
-    background: #2F8233;
+  background: #2F8233;
 }
+
+.piePagina {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  overflow-x: hidden;
+  border: solid 1px;
+  box-shadow: 0 0 20px #2F8233;
+}
+.piePagina .grupo1 {
+  width: 100%;
+  max-width: 1700px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 10px 0px;
+}
+.piePagina .grupo1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.piePagina .grupo1 .box figure a img {
+  width: 200px;
+  height: 140px;
+}
+.piePagina .grupo1 .box h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.piePagina .grupo1 .box p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.piePagina .grupo1 .box1 {
+  margin: 100px;
+  text-align: center;
+}
+.piePagina .grupo1 .box1 h3 {
+  text-align: center;
+}
+.piePagina .grupo1 .box1 .redSocial {
+  text-align: center;
+  margin-top: 60px;
+}
+.piePagina .grupo1 .box1 .redSocial .logosRrss {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 10px;
+  text-align: center;
+}
+.piePagina .grupo1 .box1 .redSocial .logosRrss:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */

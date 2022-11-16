@@ -1,0 +1,40 @@
+section {
+    h2 {
+        font-size: 40px;
+        margin: 50px ;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 0.7em;
+        transition-duration: 1s;
+        width: 220px;
+        margin-left: auto;
+        margin-right: auto;
+        text-shadow: 2px 2px 10px #2F8233;
+        &:hover {
+            color: white;
+            background-color: #2F8233;
+            box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233}
+        .link {
+            color: black;
+            text-decoration: none;
+        }
+    }
+    .proyectosIndex {
+        font-size: 20px;
+        display: flex;
+        display: flex;
+        flex-flow: wrap;
+        justify-content:space-around;
+        align-content: space-around;
+        .Proyectos {
+            margin-right: 10px;
+            text-align: center;
+            width: 580px;
+            margin: 16px 8px;
+            padding: 0.5em 1em;
+            iframe {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+
+.mainIndex {
+    background-image: url(../Assets/img/index.jpg);
+    background-size: cover;
+    height: 960px;
+    width: 100%;
+    .titulo {
+        color: white;
+        padding: 200px 1200px;
+        text-shadow: 3px 3px 14px #ffffff;
+        p {
+            width: 400px;
+            font-size: 32px;
+        }
+        h1 {
+            font-size: 100px;
+            font-weight: bold;
+        }
+    }
+}
+
+.mainProyectos {
+    background-image: url(../Assets/img/imgProyectos.jpg);
+    background-size: cover;
+    height: 940px;
+    .titulo {
+        color: white;
+        padding: 200px 1200px;
+        text-shadow: 3px 3px 14px #ffffff;
+        p {
+            width: 400px;
+            font-size: 32px;
+        }
+        h1 {
+            font-size: 100px;
+            font-weight: bold;
+        }
+    }
+    }
+
+.mainFaq {
+    background-image: url(../Assets/img/imgFaq.jpg);
+    background-size: cover;
+    height: 940px;
+    .titulo {
+        color: white;
+        padding: 200px 1200px;
+        text-shadow: 3px 3px 14px #ffffff;
+        h1 {
+            font-size: 100px;
+            font-weight: bold;
+        }
+    }
+    }
+
+.mainContactos {
+    background-image: url(../Assets/img/imgContactos.jpg);
+    background-size: cover;
+    height: 940px;
+    .titulo {
+        color: white;
+        padding: 200px 1200px;
+        text-shadow: 3px 3px 14px #ffffff;
+        h1 {
+            font-size: 100px;
+            font-weight: bold;
+        }
+    }
+    }

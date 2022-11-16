@@ -1,0 +1,35 @@
+.contacto {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-content: space-around;
+    .recuadroContacto {
+        text-align: center;
+        width: 350px;
+        height: 380px;
+        margin: 70px;
+        padding-top: 30px;
+        background-color: #ebebeb;
+        box-shadow: 0 0 10px #000000, 1px 1px #000000;
+        .recuadroContacto:hover {
+            scale: 1.04;
+            background: rgba(0,0,0,.2);
+        }
+            a {
+                text-decoration: none;
+                color: #000000;
+                .iconos {
+                    width: 120px;
+                    height: 120px;
+                }
+                p {
+                    font-size: 18px;
+                    text-shadow: 1px 1px 10px #929292;
+                    padding: 15px 60px;
+                    font-weight: bold;
+                    width: auto;
+                }
+            }
+        
+    }
+}
