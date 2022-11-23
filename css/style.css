@@ -85,7 +85,8 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 575px) {
   .mainIndex .titulo .scrollDown {
-    margin-top: 50px;
+    margin-top: 80px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 768px) {
