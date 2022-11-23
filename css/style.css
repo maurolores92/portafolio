@@ -18,7 +18,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 575px) {
   .mainIndex {
-    height: 400px;
+    height: 450px;
     background-position: center;
   }
 }
@@ -403,7 +403,7 @@ section .sobreMi .lenguajesProgramacion img {
 }
 
 .portafolio {
-  background-image: url(/assets/img/fondoservicio1s.jpg);
+  background-image: url(../assets/img/fondoservicio1s.jpg);
 }
 .portafolio h4 {
   padding-top: 30px;
