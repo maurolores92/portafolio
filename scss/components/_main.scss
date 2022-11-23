@@ -4,66 +4,22 @@
     background-size: cover;
     height: 960px;
     width: 100%;
+    .titulop {
+        p {
+            margin-top: 200px;
+            margin-left: 100px;
+            color: white;
+            text-shadow: 3px 3px 14px #ffffff;  
+            font-size: 24px;
+        }
+    }
     .titulo {
         color: white;
-        padding: 200px 1200px;
         text-shadow: 3px 3px 14px #ffffff;
-        p {
-            width: 400px;
-            font-size: 32px;
-        }
         h1 {
             font-size: 100px;
             font-weight: bold;
+            margin: 10px 100px;
         }
     }
 }
-
-.mainProyectos {
-    background-image: url(../assets/img/imgProyectos.jpg);
-    background-size: cover;
-    height: 940px;
-    .titulo {
-        color: white;
-        padding: 200px 1200px;
-        text-shadow: 3px 3px 14px #ffffff;
-        p {
-            width: 400px;
-            font-size: 32px;
-        }
-        h1 {
-            font-size: 100px;
-            font-weight: bold;
-        }
-    }
-    }
-
-.mainFaq {
-    background-image: url(../assets/img/imgFaq.jpg);
-    background-size: cover;
-    height: 940px;
-    .titulo {
-        color: white;
-        padding: 200px 1200px;
-        text-shadow: 3px 3px 14px #ffffff;
-        h1 {
-            font-size: 100px;
-            font-weight: bold;
-        }
-    }
-    }
-
-.mainContactos {
-    background-image: url(../assets/img/imgContactos.jpg);
-    background-size: cover;
-    height: 940px;
-    .titulo {
-        color: white;
-        padding: 200px 1200px;
-        text-shadow: 3px 3px 14px #ffffff;
-        h1 {
-            font-size: 100px;
-            font-weight: bold;
-        }
-    }
-    }

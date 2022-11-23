@@ -1,0 +1,45 @@
+section { display: flex;
+    justify-content: center;
+.sobreMi {
+    background-color: rgb(51, 49, 49);
+    color: aliceblue;
+    text-align: center;
+    margin: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 1300px;
+    text-shadow: 3px 3px 14px #ffffff;
+    h3 {
+        padding-top: 10px;
+    }
+    p {
+        margin: 0 auto;
+        width: 1000px;
+        }
+    .CV {
+        margin: 20px;
+        .descargarCV {
+            background-color: #2F8233;
+            text-decoration: none;
+            color: aliceblue;
+            padding: 8px;
+            border-radius: 25px;
+            margin-top: 200px;
+            
+        }
+    }
+    
+    .lenguajeIconos {
+        margin: 30px;
+    }
+    .lenguajesProgramacion {
+        display: flex;
+        justify-content: space-around;
+        img {
+            width: 200px;
+            height: 150px;
+            margin: 50px 0px;
+        }
+    }
+}
+}

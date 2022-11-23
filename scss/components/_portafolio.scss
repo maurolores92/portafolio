@@ -1,0 +1,54 @@
+.portafolio {
+    background-image: url(../../assets/img/fondoportafolio.jpg);
+    background-size: cover;
+    height: 700px;
+    h4 {
+        padding-top: 30px;
+        font-weight: bold;
+        color: aliceblue;
+        text-align: center;
+        text-shadow: 3px 3px 14px #ffffff;
+    }
+    p {
+        font-weight: bold;
+        color: aliceblue;
+        text-align: center;
+        padding: 30px;
+        text-shadow: 3px 3px 14px #ffffff;
+        img {
+            width: 120px;
+            height: 80px;
+        }
+    }
+    .container {
+        .row {
+            .col {
+                margin: 10px;
+                transition: 1s;
+                &:hover {
+                    scale: 1.2;
+                }
+                img {
+                    width: 385px;
+                    height: 250px;
+                    margin-bottom: 20px;
+                    border-radius: 10px;
+                }
+            }
+            a {
+                padding: 8px;
+                background-color: #2F8233 ;
+                color: #ffffff;
+                border-radius: 20px;
+                width: max-content;
+                margin: 0 auto;
+                text-decoration: none;
+                transition: 1s;
+                &:hover {
+                    background-color: #49C97C;
+                    scale: 1.2;
+                }
+            }
+        }
+    }
+}

@@ -1,39 +1,15 @@
-h2 {
-    text-align: center;
-    background-color: #2F8233;
-}
-.proyectosIndex {
-    font-size: 20px;
-    display: flex;
-    display: flex;
-    flex-flow: wrap;
-    justify-content:space-around;
-    align-content: space-around;
-    .Proyectos {
-        margin-right: 10px;
+.habilidades {
+    padding: 80px;
+    .container {
+        background-color: rgb(51, 49, 49);
+        color: aliceblue;
         text-align: center;
-        width: 630px;
-        margin: 60px 8px;
-        padding: 0.5em 1em;
-    }
-}
-.servicios {
-    background-image: url(../assets/img/imgproyectos2.jpg);
-    background-size: cover;
-    height: 960px;
-    width: 100%;
-    color: #fff;
-    display: flex;
-    .serviciosFlex {
-        display: flex;
-        justify-content:center;
-        width: 100%;
-        height: 150px;
         font-size: 20px;
-        margin-top: 80px;
-        padding: 20px;
-        line-height: 40px;
-        text-align: center;
+        border-radius: 30px;
         text-shadow: 3px 3px 14px #ffffff;
+        .row {
+            padding: 40px;
+            
+        }
     }
 }
