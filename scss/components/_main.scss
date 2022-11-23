@@ -4,6 +4,9 @@
     background-size: cover;
     height: 960px;
     width: 100%;
+    @media screen and (min-width: 576px) and (max-width: 767px) { 
+        
+        }
     .titulop {
         p {
             margin-top: 200px;

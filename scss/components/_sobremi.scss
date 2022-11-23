@@ -14,7 +14,18 @@ section { display: flex;
     }
     p {
         margin: 0 auto;
-        width: 1000px;
+        width: 960px;
+        @media screen and (min-width: 768px) and (max-width: 992px) { 
+            width: 768px;
+            }
+        @media screen and (min-width: 576px) and (max-width: 767px) { 
+            width: 576px;
+            margin: 10px;
+            }
+        @media screen and (max-width: 575px) { 
+            width: 420px;
+            margin: 10px;
+            }
         }
     .CV {
         margin: 20px;

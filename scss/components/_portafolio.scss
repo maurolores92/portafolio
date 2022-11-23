@@ -1,23 +1,25 @@
 .portafolio {
     background-image: url(../assets/img/fondoportafolio.jpg);
     background-size: cover;
-    height: 700px;
     h4 {
         padding-top: 30px;
         font-weight: bold;
         color: aliceblue;
         text-align: center;
         text-shadow: 3px 3px 14px #ffffff;
+        font-size: 34px;
     }
     p {
         font-weight: bold;
+        font-size: 24px;
         color: aliceblue;
         text-align: center;
         padding: 30px;
         text-shadow: 3px 3px 14px #ffffff;
         img {
-            width: 120px;
-            height: 80px;
+            margin: 50px 0px;
+            width: 150px;
+            height: 100px;
         }
     }
     .container {
@@ -31,24 +33,21 @@
                 img {
                     width: 385px;
                     height: 250px;
-                    margin-bottom: 20px;
+                    margin-bottom: 30px;
                     border-radius: 10px;
+                    @media screen and (min-width: 1201px) and (max-width: 1399px) { 
+                        width: 300px;
+                    height: 220px;
+                    
+                        }
+                    @media screen and (min-width: 994px) and (max-width: 1200px) { 
+                        width: 220px;
+                        height: 160px;
+                    
+                        }
                 }
             }
-            a {
-                padding: 8px;
-                background-color: #2F8233 ;
-                color: #ffffff;
-                border-radius: 20px;
-                width: max-content;
-                margin: 0 auto;
-                text-decoration: none;
-                transition: 1s;
-                &:hover {
-                    background-color: #49C97C;
-                    scale: 1.2;
-                }
-            }
+            
         }
     }
 }

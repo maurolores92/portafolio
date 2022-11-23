@@ -2,44 +2,42 @@
     background-image:url(../assets/img/fondoservicios.jpg);
     background-size: cover;
     padding: 40px;
-    .container {
-        h2 {
-            color: #ebebeb;
-            background-color: transparent;
-        }
-    .row {
-    margin: 30px;        
-    .recuadroContacto {
-        text-align: center;
-        width: 350px;
-        height: 420px;
-        margin: 20px;
-        padding-top: 30px;
-        background-color: #ebebeb;
-        background: rgba(0,0,0,.5);
-        box-shadow: 0 0 10px #000000, 1px 1px #000000;
-        color: #000000;
-        border-radius: 10px;
-
-            a {
-                text-decoration: none;
-                color: #000000;
-                .iconos {
-                    width: 120px;
-                    height: 120px;
+    .contacto {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:space-around;
+        align-content: space-around;
+        margin: 0 auto;
+        .recuadro-contacto {
+            text-align: center;
+            width: 350px;
+            height: 450px;
+            margin: 50px 20px;
+            padding-top: 30px;
+            background: rgba(0,0,0,.3);
+            box-shadow: 0 0 10px black;
+                img {
+                    width: 100px;
+                    height: 80px;
                 }
-                p {
-                    font-size: 18px;
-                    text-shadow: 1px 1px 10px #929292;
-                    padding: 15px 10px;
-                    font-weight: bold;
-                    width: auto;
-                    color: #ebebeb;
-                    text-shadow: 3px 3px 14px #ffffff;
+                h4 {
+                    color: aliceblue; 
                 }
+            p {
+                font-size: 18px;
+                text-shadow: 1px 1px 10px #929292;
+                padding: 30px 0;
+                font-weight: bold;
+                text-align: center;
+                color: aliceblue;
             }
-        
+            @media screen and (max-width:576px) {
+                margin: 10px;
+                }
+                
+            @media screen and (min-width: 577px) and (max-width: 768px){
+                margin: 20px;
+                }
+        }
     }
-}
-}
 }
