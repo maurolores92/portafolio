@@ -12,8 +12,27 @@ body {
 .mainIndex {
   background-image: url(../assets/img/index.jpg);
   background-size: cover;
+  background-position: center;
   height: 960px;
   width: 100%;
+}
+@media screen and (min-width: 350px) and (max-width: 575px) {
+  .mainIndex {
+    height: 500px;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .mainIndex {
+    height: 600px;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .mainIndex {
+    height: 800px;
+    background-position: center;
+  }
 }
 .mainIndex .titulop p {
   margin-top: 200px;
@@ -21,6 +40,34 @@ body {
   color: white;
   text-shadow: 3px 3px 14px #ffffff;
   font-size: 24px;
+}
+@media screen and (min-width: 350px) and (max-width: 575px) {
+  .mainIndex .titulop p {
+    margin-top: 80px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .mainIndex .titulop p {
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .mainIndex .titulop p {
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .mainIndex .titulop p {
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 28px;
+  }
 }
 .mainIndex .titulo {
   color: white;
@@ -30,6 +77,30 @@ body {
   font-size: 100px;
   font-weight: bold;
   margin: 10px 100px;
+}
+@media screen and (min-width: 350px) and (max-width: 575px) {
+  .mainIndex .titulo h1 {
+    margin: 0px 10px;
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .mainIndex .titulo h1 {
+    margin: 0px 30px;
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .mainIndex .titulo h1 {
+    margin: 0px 40px;
+    font-size: 70px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .mainIndex .titulo h1 {
+    margin: 0px 80px;
+    font-size: 100px;
+  }
 }
 
 nav .container-fluid {
@@ -171,6 +242,11 @@ section .proyectosIndex .Proyectos iframe {
   background-image: url(../assets/img/fondoservicios.jpg);
   background-size: cover;
   padding: 40px;
+}
+.tarjetaServicios h2 {
+  color: aliceblue;
+  text-align: center;
+  text-shadow: 1px 1px 10px #929292;
 }
 .tarjetaServicios .contacto {
   display: flex;

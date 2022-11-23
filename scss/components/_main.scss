@@ -2,11 +2,22 @@
 .mainIndex {
     background-image: url(../assets/img/index.jpg);
     background-size: cover;
+    background-position: center;
     height: 960px;
     width: 100%;
-    @media screen and (min-width: 576px) and (max-width: 767px) { 
-        
-        }
+        @media screen and (min-width: 350px) and (max-width: 575px) { 
+            height: 500px;
+            background-position: center;
+            }
+        @media screen and (min-width: 576px) and (max-width: 768px) { 
+            height: 600px;
+            background-position: center;
+            }
+        @media screen and (min-width: 768px) and (max-width: 992px) { 
+            height: 800px;
+            background-position: center;
+            }
+            
     .titulop {
         p {
             margin-top: 200px;
@@ -14,6 +25,26 @@
             color: white;
             text-shadow: 3px 3px 14px #ffffff;  
             font-size: 24px;
+            @media screen and (min-width: 350px) and (max-width: 575px) { 
+                margin-top: 80px;
+                margin-left: 10px;
+                font-size: 20px;
+            }
+            @media screen and (min-width: 576px) and (max-width: 768px) { 
+                margin-top: 80px;
+                margin-left: 30px;
+                font-size: 20px;
+                }
+            @media screen and (min-width: 768px) and (max-width: 992px) { 
+                margin-top: 100px;
+                margin-left: 40px;
+                font-size: 28px;
+            }
+            @media screen and (min-width: 993px) and (max-width: 1200px) { 
+                margin-top: 100px;
+                margin-left: 80px;
+                font-size: 28px;
+            }
         }
     }
     .titulo {
@@ -23,6 +54,22 @@
             font-size: 100px;
             font-weight: bold;
             margin: 10px 100px;
+            @media screen and (min-width: 350px) and (max-width: 575px) { 
+                margin: 0px 10px;
+                font-size: 44px;
+            }
+            @media screen and (min-width: 576px) and (max-width: 768px) { 
+                margin: 0px 30px;
+                font-size: 44px;
+                }
+            @media screen and (min-width: 768px) and (max-width: 992px) { 
+                margin: 0px 40px;
+                font-size: 70px;
+            }
+            @media screen and (min-width: 993px) and (max-width: 1200px) { 
+                margin: 0px 80px;
+                font-size: 100px;
+            }
         }
     }
 }
