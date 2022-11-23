@@ -51,5 +51,41 @@
                 font-size: 70px;
                 }
         }
+        .scrollDown {
+            margin-top: 160px;
+            font-size: 16px;
+            @media screen and (min-width: 350px) and (max-width: 575px) { 
+                margin-top: 50px;
+                }
+            @media screen and (min-width: 576px) and (max-width: 768px) { 
+                margin-top: 100px;
+        }
+        }
     }
+}
+
+
+.chevron.bottom:before {
+    top: 0;
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.chevron::before {
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 20px;
+    color: white;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
 }
