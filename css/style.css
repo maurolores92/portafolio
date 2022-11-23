@@ -168,7 +168,7 @@ section .proyectosIndex .Proyectos iframe {
 }
 
 .tarjetaServicios {
-  background-image: url(../../assets/img/fondoservicios.jpg);
+  background-image: url(../assets/img/fondoservicios.jpg);
   background-size: cover;
   padding: 40px;
 }
@@ -270,7 +270,7 @@ section .sobreMi .lenguajesProgramacion img {
 }
 
 .portafolio {
-  background-image: url(../../assets/img/fondoportafolio.jpg);
+  background-image: url(../assets/img/fondoportafolio.jpg);
   background-size: cover;
   height: 700px;
 }
