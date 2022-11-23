@@ -362,14 +362,11 @@ section .sobreMi .lenguajesProgramacion img {
 }
 
 .portafolio {
-  background-image: url(../assets/img/fondoportafolio.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(/assets/img/fondoservicio1s.jpg);
 }
 .portafolio h4 {
   padding-top: 30px;
   font-weight: bold;
-  color: aliceblue;
   text-align: center;
   text-shadow: 3px 3px 14px #ffffff;
   font-size: 34px;
@@ -377,9 +374,7 @@ section .sobreMi .lenguajesProgramacion img {
 .portafolio p {
   font-weight: bold;
   font-size: 24px;
-  color: aliceblue;
   text-align: center;
-  padding: 30px;
   text-shadow: 3px 3px 14px #ffffff;
 }
 @media screen and (min-width: 320px) and (max-width: 575px) {
@@ -388,7 +383,6 @@ section .sobreMi .lenguajesProgramacion img {
   }
 }
 .portafolio p img {
-  margin: 50px 0px;
   width: 150px;
   height: 100px;
 }
@@ -398,16 +392,21 @@ section .sobreMi .lenguajesProgramacion img {
   }
 }
 .portafolio .container .row .col {
+  border: solid 0.5px;
   margin: 10px;
+  padding-top: 15px;
   transition: 1s;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 .portafolio .container .row .col:hover {
-  scale: 1.2;
+  scale: 1.1;
 }
 .portafolio .container .row .col img {
   width: 385px;
   height: 250px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border-radius: 10px;
 }
 @media screen and (min-width: 1201px) and (max-width: 1399px) {
