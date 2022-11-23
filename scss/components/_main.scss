@@ -5,71 +5,51 @@
     background-position: center;
     height: 960px;
     width: 100%;
-        @media screen and (min-width: 350px) and (max-width: 575px) { 
-            height: 500px;
-            background-position: center;
-            }
-        @media screen and (min-width: 576px) and (max-width: 768px) { 
-            height: 600px;
-            background-position: center;
-            }
-        @media screen and (min-width: 768px) and (max-width: 992px) { 
-            height: 800px;
-            background-position: center;
-            }
-            
-    .titulop {
-        p {
-            margin-top: 200px;
-            margin-left: 100px;
-            color: white;
-            text-shadow: 3px 3px 14px #ffffff;  
-            font-size: 24px;
-            @media screen and (min-width: 350px) and (max-width: 575px) { 
-                margin-top: 80px;
-                margin-left: 10px;
-                font-size: 20px;
-            }
-            @media screen and (min-width: 576px) and (max-width: 768px) { 
-                margin-top: 80px;
-                margin-left: 30px;
-                font-size: 20px;
-                }
-            @media screen and (min-width: 768px) and (max-width: 992px) { 
-                margin-top: 100px;
-                margin-left: 40px;
-                font-size: 28px;
-            }
-            @media screen and (min-width: 993px) and (max-width: 1200px) { 
-                margin-top: 100px;
-                margin-left: 80px;
-                font-size: 28px;
-            }
+    @media screen and (min-width: 350px) and (max-width: 575px) { 
+        height: 400px;
+        background-position: center;
         }
-    }
+    @media screen and (min-width: 576px) and (max-width: 768px) { 
+        height: 600px;
+        background-position: center;
+        }
+    @media screen and (min-width: 768px) and (max-width: 992px) { 
+        height: 700px;
+        background-position: center;
+        }
+    @media screen and (min-width: 993px) and (max-width: 1200px) { 
+        height: 800px;
+        background-position: center;
+        }
+    @media screen and (min-width: 1201px) and (max-width: 1400px) { 
+        height: 800px;
+        background-position: center;
+        }
+    @media screen and (min-width: 1401px) { 
+        height: 900px;
+        background-position: center;
+        }
     .titulo {
-        color: white;
-        text-shadow: 3px 3px 14px #ffffff;
+        text-align: center;
+        margin: 20% 0;
+        p {
+            color: aliceblue;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 0 0 14px white;
+            @media screen and (min-width: 350px) and (max-width: 575px) { 
+                font-size: 30px;
+                }
+        }
         h1 {
+            color: aliceblue;
             font-size: 100px;
             font-weight: bold;
-            margin: 10px 100px;
+            text-shadow: 0 0 14px white;
+            margin: -30px;
             @media screen and (min-width: 350px) and (max-width: 575px) { 
-                margin: 0px 10px;
-                font-size: 44px;
-            }
-            @media screen and (min-width: 576px) and (max-width: 768px) { 
-                margin: 0px 30px;
-                font-size: 44px;
-                }
-            @media screen and (min-width: 768px) and (max-width: 992px) { 
-                margin: 0px 40px;
                 font-size: 70px;
-            }
-            @media screen and (min-width: 993px) and (max-width: 1200px) { 
-                margin: 0px 80px;
-                font-size: 100px;
-            }
+                }
         }
     }
 }

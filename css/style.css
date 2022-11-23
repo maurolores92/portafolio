@@ -18,7 +18,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 575px) {
   .mainIndex {
-    height: 500px;
+    height: 400px;
     background-position: center;
   }
 }
@@ -30,76 +30,53 @@ body {
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .mainIndex {
+    height: 700px;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .mainIndex {
     height: 800px;
     background-position: center;
   }
 }
-.mainIndex .titulop p {
-  margin-top: 200px;
-  margin-left: 100px;
-  color: white;
-  text-shadow: 3px 3px 14px #ffffff;
-  font-size: 24px;
-}
-@media screen and (min-width: 350px) and (max-width: 575px) {
-  .mainIndex .titulop p {
-    margin-top: 80px;
-    margin-left: 10px;
-    font-size: 20px;
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .mainIndex {
+    height: 800px;
+    background-position: center;
   }
 }
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .mainIndex .titulop p {
-    margin-top: 80px;
-    margin-left: 30px;
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  .mainIndex .titulop p {
-    margin-top: 100px;
-    margin-left: 40px;
-    font-size: 28px;
-  }
-}
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-  .mainIndex .titulop p {
-    margin-top: 100px;
-    margin-left: 80px;
-    font-size: 28px;
+@media screen and (min-width: 1401px) {
+  .mainIndex {
+    height: 900px;
+    background-position: center;
   }
 }
 .mainIndex .titulo {
-  color: white;
-  text-shadow: 3px 3px 14px #ffffff;
+  text-align: center;
+  margin: 20% 0;
+}
+.mainIndex .titulo p {
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0 0 14px white;
+}
+@media screen and (min-width: 350px) and (max-width: 575px) {
+  .mainIndex .titulo p {
+    font-size: 30px;
+  }
 }
 .mainIndex .titulo h1 {
+  color: aliceblue;
   font-size: 100px;
   font-weight: bold;
-  margin: 10px 100px;
+  text-shadow: 0 0 14px white;
+  margin: -30px;
 }
 @media screen and (min-width: 350px) and (max-width: 575px) {
   .mainIndex .titulo h1 {
-    margin: 0px 10px;
-    font-size: 44px;
-  }
-}
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .mainIndex .titulo h1 {
-    margin: 0px 30px;
-    font-size: 44px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  .mainIndex .titulo h1 {
-    margin: 0px 40px;
     font-size: 70px;
-  }
-}
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-  .mainIndex .titulo h1 {
-    margin: 0px 80px;
-    font-size: 100px;
   }
 }
 
@@ -245,7 +222,7 @@ section .proyectosIndex .Proyectos iframe {
 .habilidades .container p {
   line-height: 1.5em;
 }
-.habilidades .container .row {
+.habilidades .container s .row {
   padding: 40px;
 }
 
@@ -349,10 +326,10 @@ section .sobreMi p {
     margin: 10px;
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (min-width: 320px) and (max-width: 575px) {
   section .sobreMi p {
-    width: 420px;
-    margin: 10px;
+    width: 320px;
+    margin: 4px;
   }
 }
 section .sobreMi .CV {
@@ -378,6 +355,11 @@ section .sobreMi .lenguajesProgramacion img {
   height: 150px;
   margin: 50px 0px;
 }
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  section .sobreMi .lenguajesProgramacion img {
+    margin: 10px 0px;
+  }
+}
 
 .portafolio {
   background-image: url(../assets/img/fondoportafolio.jpg);
@@ -400,10 +382,20 @@ section .sobreMi .lenguajesProgramacion img {
   padding: 30px;
   text-shadow: 3px 3px 14px #ffffff;
 }
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .portafolio p {
+    font-size: 16px;
+  }
+}
 .portafolio p img {
   margin: 50px 0px;
   width: 150px;
   height: 100px;
+}
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .portafolio p img {
+    margin: 10px 0px;
+  }
 }
 .portafolio .container .row .col {
   margin: 10px;
