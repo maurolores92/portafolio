@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   overflow-wrap: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 575px) {
   .mainIndex {
-    height: 750px;
+    height: 780px;
     background-position: center;
   }
 }
@@ -332,7 +333,7 @@ footer {
   text-align: center;
 }
 footer div {
-  margin: 30px;
+  margin-top: 30px;
 }
 footer div a img {
   width: 120px;
@@ -439,8 +440,11 @@ section .sobreMi .lenguajesProgramacion img {
     font-size: 16px;
   }
 }
+.portafolio p a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .portafolio .container .row .col {
-  border: solid 0.5px;
   margin: 10px;
   padding-top: 15px;
   transition: 1s;
