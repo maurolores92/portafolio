@@ -11,11 +11,12 @@ section {
         
         margin-left: auto;
         margin-right: auto;
-        text-shadow: 2px 2px 10px #2F8233;
+        text-shadow: 2px 2px 10px blueviolet;;
         &:hover {
             color: white;
-            background-color: #2F8233;
-            box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233}
+            background-color: blueviolet;;
+            box-shadow: 0 0 20px rgb(177, 118, 231), 2px 2px blueviolet;
+        }
         .link {
             color: black;
             text-decoration: none;
