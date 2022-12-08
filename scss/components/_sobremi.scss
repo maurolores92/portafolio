@@ -31,12 +31,13 @@ section { display: flex;
     .CV {
         margin: 20px;
         .descargarCV {
-            background-color: #2F8233;
+            background-color: blueviolet;
             text-decoration: none;
             color: aliceblue;
             padding: 8px;
             border-radius: 25px;
             margin-top: 200px;
+            box-shadow: 0 0 20px rgb(177, 118, 231), 2px 2px blueviolet;
             
         }
     }

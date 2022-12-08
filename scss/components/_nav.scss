@@ -29,8 +29,8 @@ nav {
                 border-radius: 0.7em;
                 transition-duration: 1s;
                 &:hover {
-                    background-color: #2F8233;
-                    box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233 
+                    background-color: blueviolet;
+                    box-shadow: 0 0 20px rgb(177, 118, 231), 2px 2px blueviolet;
                 }
                 .nav-link {
                     color: white;
@@ -76,8 +76,8 @@ nav {
                 border-radius: 0.7em;
                 transition-duration: 1s;
                 &:hover {
-                    background-color: #2F8233;
-                    box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233
+                    background-color: blueviolet;
+                    box-shadow: 0 0 20px rgb(177, 118, 231), 2px 2px blueviolet;
                 }
                 .navMenuLink {
                     color: white;

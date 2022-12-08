@@ -155,8 +155,8 @@ nav .container-fluid .collapse .nav-item {
   transition-duration: 1s;
 }
 nav .container-fluid .collapse .nav-item:hover {
-  background-color: #2F8233;
-  box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233;
+  background-color: blueviolet;
+  box-shadow: 0 0 20px rgb(177, 118, 231), 2px 2px blueviolet;
 }
 nav .container-fluid .collapse .nav-item .nav-link {
   color: white;
@@ -197,8 +197,8 @@ nav .container-fluid .collapse .nav-item .nav-link {
   transition-duration: 1s;
 }
 .header .nav .navMenu .navMenuItem:hover {
-  background-color: #2F8233;
-  box-shadow: 0 0 20px #49C97C, 2px 2px #2F8233;
+  background-color: blueviolet;
+  box-shadow: 0 0 20px rgb(177, 118, 231), 2px 2px blueviolet;
 }
 .header .nav .navMenu .navMenuItem .navMenuLink {
   color: white;
@@ -247,7 +247,7 @@ section .proyectosIndex .Proyectos iframe {
   box-shadow: 3px 3px 14px #000000;
 }
 
-#habilidades {
+.habilidades .container {
   width: auto;
   text-align: center;
   margin: 60px auto;
@@ -256,21 +256,21 @@ section .proyectosIndex .Proyectos iframe {
   border-radius: 1rem;
   justify-content: center;
 }
-#habilidades .row .col img {
+.habilidades .container .row .col img {
   width: 100px;
   margin-bottom: 15px;
 }
-#habilidades .row .col h2 {
+.habilidades .container .row .col h2 {
   margin-bottom: 30px;
   color: blueviolet;
   text-shadow: 1px 1px 8px rgb(171, 129, 211);
 }
-#habilidades .row .col p {
+.habilidades .container .row .col p {
   font-size: 16px;
   margin: 30px;
   font-weight: bold;
 }
-#habilidades .row .col h3 {
+.habilidades .container .row .col h3 {
   margin-bottom: 30px;
   color: blueviolet;
   font-size: 20px;
@@ -388,12 +388,13 @@ section .sobreMi .CV {
   margin: 20px;
 }
 section .sobreMi .CV .descargarCV {
-  background-color: #2F8233;
+  background-color: blueviolet;
   text-decoration: none;
   color: aliceblue;
   padding: 8px;
   border-radius: 25px;
   margin-top: 200px;
+  box-shadow: 0 0 20px rgb(177, 118, 231), 2px 2px blueviolet;
 }
 section .sobreMi .lenguajeIconos {
   margin: 30px;
