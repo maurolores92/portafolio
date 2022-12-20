@@ -141,6 +141,11 @@ nav .container-fluid a .logo {
 nav .container-fluid .navbar-toggler {
   background: #bcbebc;
 }
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  nav .container-fluid .navbar-toggler {
+    margin-right: 20px;
+  }
+}
 nav .container-fluid .collapse .navbar-nav {
   margin-left: auto;
 }

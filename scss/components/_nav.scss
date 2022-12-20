@@ -1,4 +1,5 @@
-nav {
+nav { 
+    
     .container-fluid {
         height: 80px;
         width: 100%;
@@ -11,8 +12,12 @@ nav {
                 padding: 10px;
             }
         }
+
         .navbar-toggler {
             background: #bcbebc;
+            @media screen and (min-width: 320px) and (max-width: 575px) { 
+                margin-right: 20px;
+                }
         }
         .collapse {
             .navbar-nav {
