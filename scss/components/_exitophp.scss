@@ -1,0 +1,49 @@
+
+ .exitos{
+    background-image: url(../assets/img/index.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 960px;
+    width: 100%;
+    @media screen and (min-width: 350px) and (max-width: 575px) { 
+        height: 780px;
+        background-position: center;
+        }
+    @media screen and (min-width: 576px) and (max-width: 768px) { 
+        height: 750px;
+        background-position: center;
+        }
+    @media screen and (min-width: 768px) and (max-width: 992px) { 
+        height: 700px;
+        background-position: center;
+        }
+    @media screen and (min-width: 993px) and (max-width: 1200px) { 
+        height: 800px;
+        background-position: center;
+        }
+    @media screen and (min-width: 1201px) and (max-width: 1400px) { 
+        height: 800px;
+        background-position: center;
+        }
+    @media screen and (min-width: 1401px) { 
+        height: 900px;
+        background-position: center;
+        }
+        div {
+            text-align: center;
+            margin: 20% 0;
+            @media screen and (min-width: 350px) and (max-width: 575px) { 
+                margin: 50% 0;
+                }
+            h1 {
+                color: aliceblue;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 0 0 14px white;
+            margin: -30px;
+            @media screen and (min-width: 350px) and (max-width: 575px) { 
+                font-size: 30px;
+                }
+            }
+        }
+ }

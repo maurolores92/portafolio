@@ -82,7 +82,7 @@ body {
 }
 @media screen and (min-width: 350px) and (max-width: 575px) {
   .mainIndex .titulo h1 {
-    font-size: 70px;
+    font-size: 30px;
   }
 }
 .mainIndex .titulo .scrollDown {
@@ -562,6 +562,71 @@ div .form .botones-form:hover {
 @media screen and (min-width: 1201px) {
   div .form {
     max-width: 1100px;
+  }
+}
+
+.exitos {
+  background-image: url(../assets/img/index.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 960px;
+  width: 100%;
+}
+@media screen and (min-width: 350px) and (max-width: 575px) {
+  .exitos {
+    height: 780px;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .exitos {
+    height: 750px;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .exitos {
+    height: 700px;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .exitos {
+    height: 800px;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .exitos {
+    height: 800px;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 1401px) {
+  .exitos {
+    height: 900px;
+    background-position: center;
+  }
+}
+.exitos div {
+  text-align: center;
+  margin: 20% 0;
+}
+@media screen and (min-width: 350px) and (max-width: 575px) {
+  .exitos div {
+    margin: 50% 0;
+  }
+}
+.exitos div h1 {
+  color: aliceblue;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0 0 14px white;
+  margin: -30px;
+}
+@media screen and (min-width: 350px) and (max-width: 575px) {
+  .exitos div h1 {
+    font-size: 30px;
   }
 }
 
