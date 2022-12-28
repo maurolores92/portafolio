@@ -143,7 +143,7 @@ nav .container-fluid .navbar-toggler {
 }
 @media screen and (min-width: 320px) and (max-width: 575px) {
   nav .container-fluid .navbar-toggler {
-    margin-right: 20px;
+    margin-right: 40px;
   }
 }
 nav .container-fluid .collapse .navbar-nav {
@@ -428,59 +428,140 @@ section .sobreMi .lenguajesProgramacion img {
   text-align: center;
   text-shadow: 3px 3px 14px #ffffff;
   font-size: 34px;
+  margin: 20px;
 }
-.portafolio div {
-  text-align: center;
+.portafolio .container .row {
+  padding-bottom: 30px;
 }
-.portafolio div img {
-  width: 150px;
+.portafolio .container .row .card {
+  margin: 30px auto;
+  max-width: 330px;
+  background-color: rgb(104, 104, 104);
+  -webkit-box-shadow: 11px 11px 8px -4px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 11px 11px 8px -4px rgba(0, 0, 0, 0.54);
+  box-shadow: 11px 11px 8px -4px rgba(0, 0, 0, 0.54);
+  transition: 1s;
+}
+.portafolio .container .row .card:hover {
+  scale: 1.05;
+}
+.portafolio .container .row .card .indexport {
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 300px;
+  height: 200px;
+}
+.portafolio .container .row .card .logoport {
+  width: 200px;
   height: 100px;
+  margin: 0 auto;
 }
-.portafolio p {
-  font-weight: bold;
-  font-size: 24px;
+.portafolio .container .row .card div {
+  margin: 0 auto;
+  width: 295px;
   text-align: center;
-  text-shadow: 3px 3px 14px #ffffff;
 }
-@media screen and (min-width: 320px) and (max-width: 575px) {
-  .portafolio p {
-    font-size: 16px;
-  }
-}
-.portafolio p a {
-  text-decoration: none;
+.portafolio .container .row .card div p {
   color: #ffffff;
 }
-.portafolio .container {
-  box-shadow: none;
+.portafolio .container .row .card div a {
+  border: none;
+  background-color: rgb(177, 118, 231);
+  font-size: 16px;
+  color: white;
+  transition-duration: 1s;
 }
-.portafolio .container .row .col {
-  margin: 10px;
-  padding-top: 15px;
-  transition: 1s;
+.portafolio .container .row .card div a:hover {
+  background-color: blueviolet;
+  box-shadow: 0 0 20px rgb(177, 118, 231), 2px 2px blueviolet;
+}
+
+div .form {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0px 35px;
+  border-radius: 3px;
+}
+div .form .form-header .form-title {
+  font-weight: bold;
+  font-family: sans-serif;
   text-align: center;
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  font-size: 50px;
 }
-.portafolio .container .row .col:hover {
-  scale: 1.1;
+div .form .form-label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  padding: 10px;
+  text-align: left;
 }
-.portafolio .container .row .col img {
-  width: 385px;
-  height: 250px;
-  margin-bottom: 10px;
-  border-radius: 10px;
+div .form .form-input {
+  resize: vertical;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 12px;
 }
-@media screen and (min-width: 1201px) and (max-width: 1399px) {
-  .portafolio .container .row .col img {
-    width: 300px;
-    height: 220px;
+div .form .form-texarea {
+  resize: vertical;
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  outline: none;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+div .form .botones-form {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  outline: none;
+  padding: 10px 50px;
+  font-size: 16px;
+  border: none;
+  background-color: rgb(177, 118, 231);
+  color: white;
+  transition-duration: 1s;
+  border-radius: 0.7em;
+  cursor: pointer;
+  transition: all 0.5sg ease;
+}
+div .form .botones-form:hover {
+  background-color: blueviolet;
+  box-shadow: 0 0 20px rgb(177, 118, 231), 2px 2px blueviolet;
+}
+@media screen and (max-width: 576px) {
+  div .form {
+    width: 340px;
+    padding: 5px 10px;
   }
 }
-@media screen and (min-width: 994px) and (max-width: 1200px) {
-  .portafolio .container .row .col img {
-    width: 220px;
-    height: 160px;
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  div .form {
+    width: 500px;
+    padding: 5px 25px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  div .form {
+    width: 700px;
+    padding: 5px 25px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  div .form {
+    max-width: 950px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  div .form {
+    max-width: 1100px;
   }
 }
 
