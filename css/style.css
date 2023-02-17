@@ -262,7 +262,7 @@ section .proyectosIndex .Proyectos iframe {
   justify-content: center;
 }
 .habilidades .container .row .col img {
-  width: 100px;
+  width: 12rem;
   margin-bottom: 15px;
 }
 .habilidades .container .row .col h2 {
@@ -280,6 +280,10 @@ section .proyectosIndex .Proyectos iframe {
   color: blueviolet;
   font-size: 20px;
   text-shadow: 1px 1px 8px rgb(171, 129, 211);
+}
+.habilidades .container .row .col a .certificados {
+  width: 14rem;
+  height: 10rem;
 }
 
 .tarjetaServicios {
@@ -386,7 +390,7 @@ section .sobreMi p {
 @media screen and (min-width: 320px) and (max-width: 575px) {
   section .sobreMi p {
     width: 320px;
-    margin: 4px;
+    margin: 20px;
   }
 }
 section .sobreMi .CV {
@@ -421,6 +425,8 @@ section .sobreMi .lenguajesProgramacion img {
 
 .portafolio {
   background-image: url(../assets/img/fondoservicio1s.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .portafolio h4 {
   padding-top: 30px;
@@ -431,7 +437,7 @@ section .sobreMi .lenguajesProgramacion img {
   margin: 20px;
 }
 .portafolio .container .row {
-  padding-bottom: 30px;
+  padding: 7rem 20px;
 }
 .portafolio .container .row .card {
   margin: 30px auto;

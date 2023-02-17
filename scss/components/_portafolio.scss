@@ -1,5 +1,7 @@
 .portafolio {
     background-image: url(../assets/img/fondoservicio1s.jpg);
+    background-size: cover;
+    background-position: center;
     h4 {
         padding-top: 30px;
         font-weight: bold;
@@ -10,7 +12,7 @@
     }
     .container {
     .row {
-        padding-bottom: 30px;
+        padding: 7rem 20px;
         .card {
             margin: 30px auto;
             max-width: 330px;

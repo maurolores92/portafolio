@@ -10,7 +10,7 @@
     .row {
         .col {
             img {
-                width: 100px;
+                width: 12rem;
                 margin-bottom: 15px;
             }
             h2 {
@@ -29,6 +29,12 @@
                 color: blueviolet;
                 font-size: 20px;
                 text-shadow: 1px 1px 8px rgb(171, 129, 211);
+            }
+            a {
+                .certificados {
+                    width: 14rem;
+                    height: 10rem;
+                }
             }
             
         }
