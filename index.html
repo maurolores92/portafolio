@@ -168,49 +168,32 @@
 </article>
 <article class="portafolio" id="portafolio">
   <h4>Portafolio</h4>
-  <div class="container">
-    
-    <div class="flip-card"><a href="https://fixitpc.tech/" target="_blank">
-      <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="assets/img/Indexfixitpc.jpg" alt="" class="imagenPortafolio">
-              <p class="titlePortafolio">Fix it PC</p>
-              <p>Hover Me</p>
-          </div>
-          <div class="flip-card-back">
-              <p style="padding: 10px;">Sitio Web creada para nuestro cliente Fix it PC, Usando herramientas como HTML y CSS. Utilizando herramientas para optimizar al maximo el sitio web utilizando preprocesadores como SASS. Implementamos tecnicas y estrategias de optimizacion para mejorar el posicionamiento en los buscadores (SEO)</p>
-              <p class="titlePortafolio">Leave Me</p>
-          </div>
+  <div class="container-portafolio">
+    <div class="tarjeta-portafolio"><a href="https://fixitpc.tech/" target="_blank">
+      <div class="imagen-pages">
+        <img src="assets/img/Indexfixitpc.jpg" alt="">
+      </div>
+      <div class="logo-pages">
+        <img src="assets/img/logofixitpcnegro.jpg" alt="">
       </div></a>
-  </div>
-  <div class="flip-card"><a href="https://gammingstore.shop" target="_blank">
-    <div class="flip-card-inner">
-        <div class="flip-card-front">
-            <img src="assets/img/GammingStore.jpg" alt="" class="imagenPortafolio">
-            <p class="titlePortafolio">Gamming Store</p>
-            <p>Hover Me</p>
-        </div>
-        <div class="flip-card-back">
-            <p>Tienda E-Commerce creada para Nuestro Cliente Gamming Store. </p>
-            <p class="titlePortafolio">Leave Me</p>
-        </div>
-    </div></a>
-</div>
-<div class="flip-card"><a href="https://maurolores92.github.io/Javascript-Proyectos/" target="_blank">
-  <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <img src="assets/img/javascript proyectos.jpg" alt="" class="imagenPortafolio">
-        <p class="titlePortafolio">Proyectos Javascript</p>
-        <p>Hover Me</p>
+    </div>
+    <div class="tarjeta-portafolio"><a href="https://gammingstore.shop/" target="_blank">
+      <div class="imagen-pages">
+        <img src="assets/img/GammingStore.jpg" alt="">
       </div>
-      <div class="flip-card-back">
-          <p> Me gusta practicar con los conocimientos que voy adquiriendo para mejorar cada dia mas. Aca les muestro un poco de los proyectos en los que estoy trabajando. Aun no estan terminados pero pueden ir viendo el progreso de los mismos. Espero que les guste</p>
-          <p class="titlePortafolio">Leave Me</p>
+      <div class="logo-pages">
+        <img src="assets/img/GammingStore logonegro.jpg" alt="">
+      </div></a>
+    </div>
+    <div class="tarjeta-portafolio"><a href="https://maurolores92.github.io/Mundo-Valorant/" target="_blank">
+      <div class="imagen-pages">
+        <img src="assets/img/mundo-valorant.jpg" alt="">
       </div>
-  </div></a>
-</div>
+      <div class="logo-pages">
+        <img src="assets/img/logomundovalorant.JPG" alt="">
+      </div></a>
+    </div>
   </div>
-
 </article>
 <footer id="rrss">
     <!-- iconos de las redes sociales -->
@@ -249,28 +232,24 @@
   <script>
     AOS.init();
 
-// You can also pass an optional settings object
-// below listed default settings
 AOS.init({
-  // Global settings:
-  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-  initClassName: 'aos-init', // class applied after initialization
-  animatedClassName: 'aos-animate', // class applied on animation
-  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-  
+  disable: false, 
+  startEvent: 'DOMContentLoaded', 
+  initClassName: 'aos-init', 
+  animatedClassName: 'aos-animate', 
+  useClassNames: false, 
+  disableMutationObserver: false, 
+  debounceDelay: 50, 
+  throttleDelay: 99, 
 
-  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 120, // offset (in px) from the original trigger point
-  delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 400, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
-  once: false, // whether animation should happen only once - while scrolling down
-  mirror: false, // whether elements should animate out while scrolling past them
-  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+  
+  offset: 120,
+  delay: 0,
+  duration: 400,
+  easing: 'ease',
+  once: false,
+  mirror: false,
+  anchorPlacement: 'top-bottom',
 
 });
   </script>
