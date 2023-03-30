@@ -25,6 +25,7 @@
             border: solid 1px white;
             margin: 20px;
             border-radius: 1.5rem;
+            
             transition: all 1s;
             .imagen-pages {
                 display: flex;
@@ -51,6 +52,7 @@
 
 .tarjeta-portafolio:hover {
     transform: scale(1.1);
+    box-shadow: 10px 10px 39px 1px rgba(255,255,255,0.75);
 }
 
 @media screen and (min-width: 380px) and (max-width: 768px){

@@ -473,6 +473,7 @@ section .sobreMi .lenguajesProgramacion img {
 
 .tarjeta-portafolio:hover {
   transform: scale(1.1);
+  box-shadow: 10px 10px 39px 1px rgba(255, 255, 255, 0.75);
 }
 
 @media screen and (min-width: 380px) and (max-width: 768px) {
