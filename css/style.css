@@ -252,7 +252,7 @@ section .proyectosIndex .Proyectos iframe {
   box-shadow: 3px 3px 14px #000000;
 }
 
-.habilidades .containerHabilidades {
+.estudios .containerEstudios {
   width: 90%;
   text-align: center;
   margin: 60px auto;
@@ -260,25 +260,25 @@ section .proyectosIndex .Proyectos iframe {
   box-shadow: 0 0 10px black;
   border-radius: 1rem;
 }
-.habilidades .containerHabilidades h2 {
+.estudios .containerEstudios h2 {
   color: blueviolet;
   text-shadow: 1px 1px 8px rgb(171, 129, 211);
   padding-bottom: 30px;
 }
-.habilidades .containerHabilidades .row {
+.estudios .containerEstudios .row {
   justify-content: space-around;
   display: flex;
 }
-.habilidades .containerHabilidades .row .col img {
+.estudios .containerEstudios .row .col img {
   width: 12rem;
   margin-bottom: 15px;
 }
-.habilidades .containerHabilidades .row .col h3 {
+.estudios .containerEstudios .row .col h3 {
   margin-bottom: 30px;
   color: blueviolet;
   text-shadow: 1px 1px 8px rgb(171, 129, 211);
 }
-.habilidades .containerHabilidades .row .col a .certificados {
+.estudios .containerEstudios .row .col a .certificados {
   width: 14rem;
   height: 10rem;
 }
@@ -338,6 +338,7 @@ section .proyectosIndex .Proyectos iframe {
 
 footer {
   text-align: center;
+  box-shadow: 0 0 10px black;
 }
 footer div {
   margin-top: 30px;
@@ -420,49 +421,43 @@ section .sobreMi .lenguajesProgramacion img {
   }
 }
 
-.portafolio {
-  background-image: url(../assets/img/fondoservicio1s.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 100px 0;
-}
-.portafolio h4 {
-  padding-top: 30px;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 3px 3px 14px #ffffff;
-  font-size: 34px;
-  margin: 20px;
-}
-.portafolio .container-portafolio {
+.container-portafolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  max-width: 1450px;
+  margin: 100px auto;
 }
-.portafolio .container-portafolio .tarjeta-portafolio {
+.container-portafolio p {
+  margin: 40px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.container-portafolio .tarjeta-portafolio {
   width: 400px;
   height: max-content;
   background-color: rgba(163, 163, 163, 0.8);
   border: solid 1px white;
-  margin: 20px;
+  margin: 40px;
   border-radius: 1.5rem;
   transition: all 1s;
 }
-.portafolio .container-portafolio .tarjeta-portafolio .imagen-pages {
+.container-portafolio .tarjeta-portafolio .imagen-pages {
   display: flex;
   justify-content: center;
 }
-.portafolio .container-portafolio .tarjeta-portafolio .imagen-pages img {
+.container-portafolio .tarjeta-portafolio .imagen-pages img {
   margin-top: 30px;
   width: 95%;
   border-radius: 1rem 1rem 0 0;
 }
-.portafolio .container-portafolio .tarjeta-portafolio .logo-pages {
+.container-portafolio .tarjeta-portafolio .logo-pages {
   display: flex;
   justify-content: center;
 }
-.portafolio .container-portafolio .tarjeta-portafolio .logo-pages img {
+.container-portafolio .tarjeta-portafolio .logo-pages img {
   margin: 30px 0;
   width: 95%;
   border-radius: 0 0 1rem 1rem;
@@ -630,6 +625,84 @@ div .form .botones-form:hover {
   .exitos div h1 {
     font-size: 30px;
   }
+}
+
+.tecnologias {
+  background-image: url(../assets/img/fondoservicio1s.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+.tecnologias div {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.tecnologias div .parrafoHabilidad {
+  margin: 60px;
+}
+.tecnologias div .parrafoHabilidad h3 {
+  color: white;
+  text-align: left;
+}
+.tecnologias div .parrafoHabilidad p {
+  color: white;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.tecnologias div .habilidad {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  min-width: 450px;
+}
+.tecnologias div .habilidad .contenedorHabilidad {
+  padding: 35px 100px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin: 8px;
+  border-radius: 1rem;
+}
+@media screen and (max-width: 1215px) {
+  .tecnologias div .habilidad .contenedorHabilidad {
+    padding: 35px 60px;
+  }
+}
+@media screen and (max-width: 975px) {
+  .tecnologias div .habilidad .contenedorHabilidad {
+    padding: 25px 40px;
+  }
+}
+.tecnologias div .habilidad .contenedorHabilidad .imgHabilidades {
+  width: 150px;
+}
+@media screen and (max-width: 975px) {
+  .tecnologias div .habilidad .contenedorHabilidad .imgHabilidades {
+    width: 100px;
+  }
+}
+.tecnologias div h3 {
+  text-align: center;
+}
+.tecnologias div .habilidades {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+.tecnologias div .habilidades .imgHabilidades {
+  width: 100px;
+}
+.tecnologias div .habilidades h4 {
+  text-align: center;
+}
+.tecnologias h4 {
+  padding-top: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 3px 14px #ffffff;
+  font-size: 34px;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

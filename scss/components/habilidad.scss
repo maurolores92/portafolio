@@ -1,0 +1,77 @@
+.tecnologias {
+    background-image: url(../assets/img/fondoservicio1s.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+
+    div {
+        max-width: 1240px ;
+        margin: 0 auto;
+        .parrafoHabilidad {
+            margin:60px;
+            h3 {
+                color: white;
+                text-align: left;
+            }
+            p {
+                color: white;
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+            }
+        }
+        .habilidad {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content:space-around;
+            align-content: space-around;
+            min-width: 450px;
+            .contenedorHabilidad {
+                padding: 35px 100px;
+                display: flex;
+                justify-content: space-around;
+                background-color: white;
+                margin: 8px;
+                border-radius: 1rem;
+                @media screen and (max-width: 1215px){
+                    padding: 35px 60px;
+                    }
+                @media screen and (max-width: 975px){
+                    padding: 25px 40px;
+                    }
+                
+                .imgHabilidades {
+                    width: 150px;
+                    @media screen and (max-width: 975px){
+                        width: 100px;
+                        }
+                }
+            }
+        }
+    }
+
+    div {
+        h3 {
+            text-align: center;
+        }
+    .habilidades {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px;
+        .imgHabilidades {
+            width: 100px;
+        }
+        h4 {
+            text-align: center;
+        }
+    }
+    
+    }
+    h4 {
+        padding-top: 30px;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 3px 3px 14px #ffffff;
+        font-size: 34px;
+        margin: 20px;
+    }
+}

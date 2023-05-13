@@ -1,29 +1,24 @@
-.portafolio {
-    background-image: url(../assets/img/fondoservicio1s.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
 
-    h4 {
-        padding-top: 30px;
-        font-weight: bold;
-        text-align: center;
-        text-shadow: 3px 3px 14px #ffffff;
-        font-size: 34px;
-        margin: 20px;
-    }
     .container-portafolio {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-            
+        max-width: 1450px;
+        margin: 100px auto;
+        
+            p {
+                margin: 40px;
+                font-weight: bold;
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+            }
         .tarjeta-portafolio {
             width: 400px;
             height: max-content;
             background-color: rgba(163, 163, 163, 0.8);
             border: solid 1px white;
-            margin: 20px;
+            margin: 40px;
             border-radius: 1.5rem;
             
             transition: all 1s;
@@ -48,7 +43,6 @@
             }
         }
     }
-}
 
 .tarjeta-portafolio:hover {
     transform: scale(1.1);
