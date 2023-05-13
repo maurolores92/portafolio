@@ -6,6 +6,11 @@
     padding: 40px 1px;
     box-shadow: 0 0 10px black;
     border-radius: 1rem;
+    h2 {
+        color: blueviolet;
+        text-shadow: 1px 1px 8px rgb(171, 129, 211);
+        padding-bottom: 30px;
+    }
     .row {
         justify-content: space-around;
         display: flex;
@@ -15,7 +20,7 @@
                 width: 12rem;
                 margin-bottom: 15px;
             }
-            h2 {
+            h3 {
                 margin-bottom: 30px;
                 color: blueviolet;
                 text-shadow: 1px 1px 8px rgb(171, 129, 211);
