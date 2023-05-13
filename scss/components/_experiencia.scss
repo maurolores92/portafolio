@@ -1,14 +1,16 @@
 .habilidades {
-    .container {
-    width: auto;
+    .containerHabilidades {
+    width: 90%;
     text-align: center;
     margin: 60px auto;
     padding: 40px 1px;
     box-shadow: 0 0 10px black;
     border-radius: 1rem;
-    justify-content: center;
     .row {
+        justify-content: space-around;
+        display: flex;
         .col {
+            
             img {
                 width: 12rem;
                 margin-bottom: 15px;
@@ -16,18 +18,6 @@
             h2 {
                 margin-bottom: 30px;
                 color: blueviolet;
-                text-shadow: 1px 1px 8px rgb(171, 129, 211);
-            }
-            p {
-                font-size: 16px;
-                margin: 30px;
-                font-weight: bold;
-            
-            }
-            h3 {
-                margin-bottom: 30px;
-                color: blueviolet;
-                font-size: 20px;
                 text-shadow: 1px 1px 8px rgb(171, 129, 211);
             }
             a {
