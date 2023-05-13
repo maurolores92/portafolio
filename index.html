@@ -26,40 +26,40 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <link rel="manifest" href="assets/img/site.webmanifest">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Mauricio Lores</title>
 </head>
 <body>
-    <main class="mainIndex">
-      <nav class="navbar navbar-expand-lg text-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="assets/img/logoheader.png" alt="logo fix it pc" class="logo"> </a>
-          <button class="navbar-toggler text-bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-light" id="navbarNav">
-            <ul id="ejm2" class="navbar-nav ">
-              <li class="nav-item nav-menu-item">
-                <a class="nav-link text-light" aria-current="page" href="#sobreMi">Sobre mi</a>
-              </li>
-              <li class="nav-item nav-menu-item">
-                <a class="nav-link text-light" href="#servicios">Servicios</a>
-              </li>
-              <li class="nav-item nav-menu-item">
-                <a class="nav-link text-light" href="#habilidades">Habilidades</a>
-              </li>
-              <li class="nav-item nav-menu-item">
-                <a class="nav-link text-light" href="#portafolio">Portafolio</a>
-              </li>
-              <li class="nav-item nav-menu-item">
-                <a class="nav-link text-light" href="#rrss">Contacto</a>
-              </li>
-            </ul>
-          </div>
+    <main class="mainIndex" id="mainIndex">
+      <div class="nav-mobile">
+        <a href="#mainIndex"><img src="assets/img/logoheader.png" alt="logo fix it pc" class="logo"></a>
+        <button class="open-nav" id="open-nav"><i class="bi bi-list"></i></button>
+</div>
+<nav>
+    <button class="close-nav" id="close-nav"><i class="bi bi-x"></i></button>
+    <a href="#mainIndex"><img src="assets/img/logoheader.png" alt="logo fix it pc" class="logo"></a>
+    <div class="nav-menu">
+        <ul class="nav-menu">
+            <li><a href="#sobreMi" class="boton-nav boton-categoria">Sobre mi</a></li>
+            <li><a href="#servicios" class="boton-nav boton-categoria">Servicios</a></li>
+            <li><a href="#habilidades" class="boton-nav boton-categoria">Habilidades</a></li>
+            <li><a href="#proyectos" class="boton-nav boton-categoria">Proyectos</a></li>
+            <li><a href="#rrss" class="boton-nav boton-categoria">Contacto</a></li>
+
+        </ul>
+    </div>
+    <div class="nav-menu-derecha">
+        <div class="nav-menu-iconos">
+            <a href="https://www.instagram.com/maurolores92/" class="boton-nav boton-categoria"><i class="bi bi-instagram"></a></i>
+            <a href="https://www.linkedin.com/in/mauriciolores/" class="boton-nav boton-categoria"><i class="bi bi-linkedin"></a></i>
+            <a href="https://github.com/maurolores92" class="boton-nav boton-categoria"><i class="bi bi-github"></a></i>
         </div>
-      </nav>
+    </div>
+    
+</nav>
         <div class="titulo">
           <p>Front End Developer</p>
           <h1>Mauricio <br> Lores</h1>
@@ -136,7 +136,7 @@
       </div>
   </div>
 </article>
-<article class="estudios">
+<article class="estudios" id="habilidades">
 <div class="containerEstudios">
   <h2>Estudios Realizados</h2>
   <div class="row">
@@ -209,7 +209,7 @@
   </div>
 </article>
 
-  <div class="container-portafolio">
+  <div class="container-portafolio" id="proyectos">
     <p><span style="font-size: 2rem;">Proyectos</span><br><br> Aquí hay algunos de mis proyectos recientes que muestran mis habilidades y experiencia en desarrollo web. Cada proyecto representa un desafío único que pude superar con creatividad y atención al detalle. ¡Echa un vistazo y descubre lo que puedo hacer por ti!</p>
     <div class="tarjeta-portafolio"><a href="https://fixitpc.tech/" target="_blank">
       <div class="imagen-pages">
@@ -271,6 +271,7 @@
           <p>&copy; Copyright 2022 Mauricio Lores | Todos los derechos reservados</p> 
         </div>
 </footer>
+<script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
