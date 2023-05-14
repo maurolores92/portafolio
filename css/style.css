@@ -420,7 +420,7 @@ nav {
 @media screen and (max-width: 733px) {
   .estudiosRealizados .estudios .recuadroEstudios {
     width: 200px;
-    height: 250px;
+    height: 260px;
     margin: 10px;
     padding-top: 0;
   }
@@ -723,7 +723,7 @@ div .form .botones-form:hover {
   flex-flow: row wrap;
   justify-content: space-around;
   align-content: space-around;
-  min-width: 450px;
+  min-width: 380px;
 }
 .tecnologias div .habilidad .contenedorHabilidad {
   padding: 35px 100px;
@@ -741,6 +741,11 @@ div .form .botones-form:hover {
 @media screen and (max-width: 975px) {
   .tecnologias div .habilidad .contenedorHabilidad {
     padding: 25px 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .tecnologias div .habilidad .contenedorHabilidad {
+    padding: 10px 20px;
   }
 }
 .tecnologias div .habilidad .contenedorHabilidad .imgHabilidades {

@@ -27,7 +27,7 @@
             flex-flow: row wrap;
             justify-content:space-around;
             align-content: space-around;
-            min-width: 450px;
+            min-width: 380px;
             .contenedorHabilidad {
                 padding: 35px 100px;
                 display: flex;
@@ -40,6 +40,9 @@
                     }
                 @media screen and (max-width: 975px){
                     padding: 25px 40px;
+                    }
+                @media screen and (max-width: 425px){
+                    padding: 10px 20px;
                     }
                 
                 .imgHabilidades {
