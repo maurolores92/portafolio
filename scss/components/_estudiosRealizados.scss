@@ -1,5 +1,5 @@
-.tarjetaServicios {
-    background-image:url(../assets/img/fondoservicios.jpg);
+.estudiosRealizados {
+    background-image: url(../assets/img/fondoservicio1s.jpg);
     background-size: cover;
     background-position: center;
     padding: 40px;
@@ -7,14 +7,17 @@
         color: aliceblue; 
         text-align: center;
         text-shadow: 1px 1px 10px #929292;
+        @media screen and (max-width:737px) {
+        font-size: 1rem;
+            }
     }
-    .contacto {
+    .estudios {
         display: flex;
         flex-flow: row wrap;
         justify-content:space-around;
         align-content: space-around;
-        margin: 0 auto;
-        .recuadro-contacto {
+        
+        .recuadroEstudios{
             text-align: center;
             width: 350px;
             height: 450px;
@@ -22,21 +25,51 @@
             padding-top: 30px;
             background: rgba(0,0,0,.3);
             box-shadow: 0 0 10px black;
-                img {
+
+            @media screen and (max-width:877px) {
+                text-align: center;
+                width: 280px;
+                height: 350px;
+                margin: 10px;
+                padding-top: 0;
+                }
+                @media screen and (max-width:733px) {
+                    
+                width: 200px;
+                height: 250px;
+                margin: 10px;
+                padding-top: 0;
+                    }
+
+
+                .iconos {
                     width: 100px;
                     height: 80px;
-                }
-                h4 {
-                    color: aliceblue; 
                 }
             p {
                 font-size: 18px;
                 text-shadow: 1px 1px 10px #929292;
                 padding: 30px 0;
-                font-weight: bold;
+                font-weight: 400;
                 text-align: center;
                 color: aliceblue;
+                @media screen and (max-width:877px) {
+                    padding: 0;
+                    font-size: 12px;
+                    }
             }
+a {
+    .certificados {
+        width: 180px;
+        height: 140px;
+        @media screen and (max-width:737px) {
+            width: 120px;
+        height: 80px;
+            }
+    }
+}
+
+
             @media screen and (max-width:576px) {
                 margin: 10px;
                 }
@@ -47,3 +80,4 @@
         }
     }
 }
+
