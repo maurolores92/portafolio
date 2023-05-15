@@ -30,12 +30,9 @@ font-weight: bold;
         height: max-content;
         background-color: rgba(163, 163, 163, 0.8);
         border: solid 1px white;
-        margin: 40px;
+        margin: 30px;
         border-radius: 10px;
         transition: all 1s;
-        @media screen and (max-width: 1622px){
-                margin: 40px 10px;
-            }
         @media screen and (max-width: 1442px){
             width: 300px;
             }
