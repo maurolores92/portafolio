@@ -383,6 +383,11 @@ nav {
   background-position: center;
   padding: 40px;
 }
+@media screen and (max-width: 540px) {
+  .estudiosRealizados {
+    padding: 40px 0;
+  }
+}
 .estudiosRealizados h2 {
   color: aliceblue;
   text-align: center;
@@ -398,6 +403,7 @@ nav {
   flex-flow: row wrap;
   justify-content: space-around;
   align-content: space-around;
+  margin: 50px 0;
 }
 .estudiosRealizados .estudios .recuadroEstudios {
   text-align: center;
@@ -423,6 +429,13 @@ nav {
     height: 260px;
     margin: 10px;
     padding-top: 0;
+  }
+}
+@media screen and (max-width: 460px) {
+  .estudiosRealizados .estudios .recuadroEstudios {
+    width: 170px;
+    height: 270px;
+    margin: 6px;
   }
 }
 .estudiosRealizados .estudios .recuadroEstudios .iconos {
