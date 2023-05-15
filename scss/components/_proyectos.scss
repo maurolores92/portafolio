@@ -17,6 +17,7 @@
     align-items: center;
     max-width: 1450px;
     margin: 50px auto;
+    padding: 10px;
 p {
 font-weight: bold;
             font-size: 1.125rem;
@@ -32,6 +33,20 @@ font-weight: bold;
         margin: 40px;
         border-radius: 10px;
         transition: all 1s;
+        @media screen and (max-width: 1622px){
+                margin: 40px 10px;
+            }
+        @media screen and (max-width: 1442px){
+            width: 300px;
+            }
+        @media screen and (max-width: 1110px){
+            width: 300px;
+            margin: 20px 10px;
+            }
+        @media screen and (max-width: 759px){
+            width: 200px;
+            margin: 20px 10px;
+            }
         .imagen-pages {
             display: flex;
             justify-content: center;

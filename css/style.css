@@ -320,6 +320,7 @@ nav {
   align-items: center;
   max-width: 1450px;
   margin: 50px auto;
+  padding: 10px;
 }
 .proyectos .containerProyectos .container-portafolio p {
   font-weight: bold;
@@ -336,6 +337,28 @@ nav {
   margin: 40px;
   border-radius: 10px;
   transition: all 1s;
+}
+@media screen and (max-width: 1622px) {
+  .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio {
+    margin: 40px 10px;
+  }
+}
+@media screen and (max-width: 1442px) {
+  .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio {
+    width: 300px;
+    margin: 20px 10px;
+  }
+}
+@media screen and (max-width: 759px) {
+  .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio {
+    width: 200px;
+    margin: 20px 10px;
+  }
 }
 .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio .imagen-pages {
   display: flex;
@@ -505,6 +528,7 @@ footer div a img:hover {
   font-size: 20px;
   border-radius: 30px;
   max-width: 1300px;
+  min-width: 360px;
   text-shadow: 2px 2px 10px #ffffff;
   box-shadow: 0 0 10px black;
 }
