@@ -302,7 +302,7 @@ nav {
   }
 }
 .proyectos .containerProyectos {
-  width: 90%;
+  width: 93%;
   text-align: center;
   margin: 60px auto;
   padding: 40px 1px;
@@ -320,7 +320,7 @@ nav {
   align-items: center;
   max-width: 1450px;
   margin: 50px auto;
-  padding: 10px;
+  padding: 6px;
 }
 .proyectos .containerProyectos .container-portafolio p {
   font-weight: bold;
@@ -334,7 +334,7 @@ nav {
   height: max-content;
   background-color: rgba(163, 163, 163, 0.8);
   border: solid 1px white;
-  margin: 15px 10px;
+  margin: 15px 5px;
   border-radius: 6px;
   transition: all 1s;
 }
