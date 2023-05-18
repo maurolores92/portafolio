@@ -26,23 +26,24 @@ font-weight: bold;
             margin: 20px;
 }
     .tarjeta-portafolio {
-        width: 400px;
+        width: 300px;
         height: max-content;
         background-color: rgba(163, 163, 163, 0.8);
         border: solid 1px white;
-        margin: 30px;
-        border-radius: 10px;
+        margin: 30px 10px;
+        border-radius: 6px;
         transition: all 1s;
         @media screen and (max-width: 1442px){
             width: 300px;
             }
         @media screen and (max-width: 1110px){
             width: 300px;
-            margin: 20px 10px;
             }
         @media screen and (max-width: 759px){
             width: 200px;
-            margin: 20px 10px;
+            }
+        @media screen and (max-width: 531px){
+            width: 150px;
             }
         .imagen-pages {
             display: flex;
@@ -50,17 +51,25 @@ font-weight: bold;
             img {
                 margin-top: 30px;
                 width: 95%;
-                border-radius: 10px 10px 0 0;
+                border-radius: 6px 6px 0 0;
                 
             }
         }
         .logo-pages {
             display: flex;
             justify-content: center;
+            height: 169px;
+            @media screen and (max-width: 759px){
+                height: 130px;
+                }
+            @media screen and (max-width: 531px){
+                height: 110px;
+                }
             img {
-                margin: 30px 0;
+                margin: 20px 0;
                 width: 95%;
-                border-radius: 0 0 1rem 1rem;
+                border-radius: 0 0 6px 6px;
+                
             }
         }
     }
