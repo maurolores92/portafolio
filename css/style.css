@@ -334,7 +334,7 @@ nav {
   height: max-content;
   background-color: rgba(163, 163, 163, 0.8);
   border: solid 1px white;
-  margin: 30px 10px;
+  margin: 15px 10px;
   border-radius: 6px;
   transition: all 1s;
 }
@@ -363,7 +363,7 @@ nav {
   justify-content: center;
 }
 .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio .imagen-pages img {
-  margin-top: 30px;
+  margin-top: 15px;
   width: 95%;
   border-radius: 6px 6px 0 0;
 }
@@ -383,7 +383,7 @@ nav {
   }
 }
 .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio .logo-pages img {
-  margin: 20px 0;
+  margin: 10px 0;
   width: 95%;
   border-radius: 0 0 6px 6px;
 }
