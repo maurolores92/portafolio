@@ -351,41 +351,52 @@ nav {
 @media screen and (max-width: 759px) {
   .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio {
     width: 200px;
+    height: 190px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 531px) {
   .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio {
     width: 150px;
+    height: 180px;
   }
 }
-.proyectos .containerProyectos .container-portafolio .tarjeta-portafolio .imagen-pages {
+.proyectos .containerProyectos .container-portafolio .tarjeta-portafolio a {
+  text-decoration: none;
+  color: black;
+}
+.proyectos .containerProyectos .container-portafolio .tarjeta-portafolio a .imagen-pages {
   display: flex;
   justify-content: center;
 }
-.proyectos .containerProyectos .container-portafolio .tarjeta-portafolio .imagen-pages img {
+.proyectos .containerProyectos .container-portafolio .tarjeta-portafolio a .imagen-pages img {
   margin-top: 15px;
   width: 95%;
   border-radius: 6px 6px 0 0;
 }
-.proyectos .containerProyectos .container-portafolio .tarjeta-portafolio .logo-pages {
-  display: flex;
+.proyectos .containerProyectos .container-portafolio .tarjeta-portafolio a .logo-pages {
   justify-content: center;
   height: 169px;
+  height: max-content;
+  text-align: center;
+  text-decoration: none;
 }
-@media screen and (max-width: 759px) {
-  .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio .logo-pages {
-    height: 130px;
-  }
-}
-@media screen and (max-width: 531px) {
-  .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio .logo-pages {
-    height: 110px;
-  }
-}
-.proyectos .containerProyectos .container-portafolio .tarjeta-portafolio .logo-pages img {
+.proyectos .containerProyectos .container-portafolio .tarjeta-portafolio a .logo-pages p {
   margin: 10px 0;
   width: 95%;
   border-radius: 0 0 6px 6px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+@media screen and (max-width: 759px) {
+  .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio a .logo-pages p {
+    display: none;
+  }
+}
+@media screen and (max-width: 531px) {
+  .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio a .logo-pages p {
+    display: none;
+  }
 }
 .proyectos .containerProyectos .container-portafolio .col img {
   width: 12rem;

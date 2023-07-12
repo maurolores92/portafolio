@@ -41,10 +41,17 @@ font-weight: bold;
             }
         @media screen and (max-width: 759px){
             width: 200px;
+            height: 190px;
+            text-align: center;
             }
         @media screen and (max-width: 531px){
             width: 150px;
+            height: 180px;
             }
+            a {
+            text-decoration: none;
+            color: black;
+            
         .imagen-pages {
             display: flex;
             justify-content: center;
@@ -56,22 +63,28 @@ font-weight: bold;
             }
         }
         .logo-pages {
-            display: flex;
             justify-content: center;
             height: 169px;
-            @media screen and (max-width: 759px){
-                height: 130px;
-                }
-            @media screen and (max-width: 531px){
-                height: 110px;
-                }
-            img {
+            height: max-content;
+            text-align: center;
+            text-decoration: none;
+
+            
+            p {
                 margin: 10px 0;
                 width: 95%;
                 border-radius: 0 0 6px 6px;
-                
+                font-size: 0.8rem;
+                text-align: center;
+                @media screen and (max-width: 759px){
+                    display: none;
+                    }
+                @media screen and (max-width: 531px){
+                    display: none;
+                    }
             }
         }
+    }
     }
 
         .col {
