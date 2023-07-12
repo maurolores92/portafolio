@@ -332,7 +332,7 @@ nav {
 .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio {
   width: 300px;
   height: max-content;
-  background-color: rgba(163, 163, 163, 0.8);
+  background: rgba(0, 0, 0, 0.2);
   border: solid 1px white;
   margin: 15px 5px;
   border-radius: 6px;
@@ -387,6 +387,7 @@ nav {
   border-radius: 0 0 6px 6px;
   font-size: 0.8rem;
   text-align: center;
+  margin: 0 auto;
 }
 @media screen and (max-width: 759px) {
   .proyectos .containerProyectos .container-portafolio .tarjeta-portafolio a .logo-pages p {
